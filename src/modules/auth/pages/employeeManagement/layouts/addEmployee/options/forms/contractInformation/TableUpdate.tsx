@@ -129,8 +129,6 @@ export default function TableUpdate({ dataTable, setDataTable, getData }: Props)
                   <TableRow hover role="checkbox" tabIndex={-1} key={index}>
                     {columns.map((column) => {
                       const value = row[column.id];
-                      console.log(row);
-
                       if (column.id === 'action') {
                         return (
                           <TableCell

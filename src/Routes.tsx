@@ -7,7 +7,7 @@ import { CircularProgress } from '@mui/material';
 const HomePage = lazy(() => import('./modules/auth/pages/home/Home'));
 const LoginPage = lazy(() => import('./modules/auth/pages/LoginPage'));
 const ForgotPasswordPage = lazy(() => import('./modules/auth/pages/ForgotPasswordPage'));
-const EmployeeManagement = lazy(() => import('./modules/auth/pages/employeeManagement/EmployeeManagementAdd'));
+const EmployeeManagement = lazy(() => import('./modules/auth/pages/employeeManagement/EmployeeManagement'));
 const AddEmployee = lazy(
   () => import('./modules/auth/pages/employeeManagement/layouts/addEmployee/AddOrUpdateEmployee'),
 );
